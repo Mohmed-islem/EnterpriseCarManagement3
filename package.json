@@ -1,0 +1,49 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "@babel/preset-react": "^7.16.7",
+        "@pmmmwh/react-refresh-webpack-plugin": "^0.5.13",
+        "axios": "1.6.0",
+        "browser-sync": "^2.27.7",
+        "browser-sync-webpack-plugin": "^2.3.0",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1.14",
+        "react-refresh": "^0.11.0",
+        "resolve-url-loader": "^5.0.0",
+        "sass": "^1.49.8",
+        "sass-loader": "^12.6.0"
+    },
+    "dependencies": {
+        "@date-io/date-fns": "^3.0.0",
+        "@emotion/react": "^11.11.4",
+        "@emotion/styled": "^11.11.5",
+        "@inertiajs/inertia": "^0.11.0",
+        "@inertiajs/inertia-react": "^0.8.0",
+        "@inertiajs/progress": "^0.2.7",
+        "@mui/lab": "^5.0.0-alpha.170",
+        "@mui/material": "^5.15.18",
+        "@mui/x-date-pickers": "^7.5.0",
+        "@popperjs/core": "^2.11.2",
+        "bootstrap": "^5.3.3",
+        "html2canvas": "^1.4.1",
+        "jspdf": "^2.5.1",
+        "leaflet": "^1.9.4",
+        "react": "^18.3.1",
+        "react-bootstrap": "^2.10.2",
+        "react-calendar": "^5.0.0",
+        "react-dom": "^18.3.1",
+        "react-helmet": "^6.1.0",
+        "react-hot-toast": "^2.2.0",
+        "react-leaflet": "^4.2.1"
+    }
+}
